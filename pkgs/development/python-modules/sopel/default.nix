@@ -12,6 +12,7 @@
 , pythonOlder
 , pytz
 , sqlalchemy
+, setuptools
 , xmltodict
 }:
 
@@ -43,6 +44,7 @@ buildPythonPackage rec {
     pygeoip
     pytz
     sqlalchemy
+    setuptools # Needed for pkg_resources.
     xmltodict
   ];
 
